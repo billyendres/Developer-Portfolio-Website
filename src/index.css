@@ -1,13 +1,266 @@
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+	margin: 0;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
+/* NAV BAR */
+
+.nav-bar {
+	box-shadow: 0px 5px 45px 5px;
+}
+
+@media screen and (max-width: 720px) {
+	.nav-text {
+		font-size: 2.25rem;
+	}
+}
+
+/* PROFILE PICTURE */
+.profile-image {
+	padding-top: 4em;
+	padding-bottom: 4em;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 200px;
+	border-radius: 50%;
+}
+
+/* DEVELOPER PORTFOLIO BLOCK  */
+.header-text {
+	background-color: black;
+	opacity: 0.5;
+	width: 75%;
+	margin: auto;
+	padding-top: 40px;
+	margin-bottom: 60px;
+	border-radius: 30px;
+	border: 4px solid white;
+	box-shadow: 20px 20px 50px 2px;
+}
+
+/*DEVELOPER PORTFOLIO TEXT */
+.header-text h1 {
+	font-size: 2.75rem;
+	font-weight: bold;
+	color: white;
+	text-align: center;
+}
+
+@media screen and (max-width: 720px) {
+	.header-text h1 {
+		font-size: 1.75rem;
+	}
+}
+
+.header-text h2 {
+	font-size: 2.5rem;
+	font-weight: bold;
+	color: white;
+	text-align: center;
+}
+
+@media screen and (max-width: 720px) {
+	.header-text h2 {
+		font-size: 1.5rem;
+	}
+}
+
+.header-text h3 {
+	font-size: 2rem;
+	font-weight: bold;
+	color: white;
+	text-align: center;
+}
+
+@media screen and (max-width: 720px) {
+	.header-text h3 {
+		font-size: 1.1rem;
+	}
+}
+
+.developer {
+	border-top: 5px dotted white;
+	width: 70%;
+}
+
+.developer-name {
+	border-top: 4px dotted white;
+	width: 35%;
+}
+
+.social-icons {
+	display: flex;
+	justify-content: center;
+	width: 100%;
+	margin: auto;
+}
+
+.social-icons i {
+	color: white;
+	font-size: 4em;
+	padding-bottom: 40px;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+@media screen and (max-width: 720px) {
+	.social-icons i {
+		font-size: 3rem;
+	}
+}
+
+/* EDUCATION */
+.JumbotronEducation {
+	color: white;
+	font-size: 1em;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.heading-1 {
+	text-align: center;
+	font-size: 2.75rem;
+	padding-bottom: 20px;
+}
+
+@media screen and (max-width: 720px) {
+	.heading-1 {
+		font-size: 1.75rem;
+	}
+}
+
+.education-p {
+	font-size: 1.5em;
+	margin-left: 20px;
+	margin-right: 20px;
+	padding-bottom: 20px;
+}
+
+@media screen and (max-width: 720px) {
+	.education-p {
+		font-size: 1rem;
+	}
+}
+
+.education-icons {
+	display: flex;
+	justify-content: center;
+	margin: auto;
+}
+
+.education-icons i {
+	color: white;
+	font-size: 3.5rem;
+	margin: 10px;
+}
+
+@media screen and (max-width: 720px) {
+	.education-icons i {
+		font-size: 2.5rem;
+	}
+}
+
+/* CONTACT FORM */
+.contact-form {
+	color: white;
+}
+
+/* IMAGE CAROUSEL-PORTFOLIO WEBSITES */
+.d-block {
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 120px;
+	border-radius: 30px;
+}
+
+.carousel a {
+	font-size: 1.5rem;
+	color: white;
+}
+
+@media screen and (max-width: 720px) {
+	.carousel a {
+		font-size: 0.75rem;
+	}
+}
+
+.carousel h3 {
+	font-size: 2rem;
+	color: white;
+}
+
+@media screen and (max-width: 720px) {
+	.carousel h3 {
+		font-size: 1rem;
+	}
+}
+
+.carousel-item {
+	font-family: "Open Sans", sans-serif;
+	padding: 1rem;
+}
+
+@media screen and (max-width: 520px) {
+	.particles {
+		display: none;
+	}
+}
+
+.Hobby img {
+	width: 100%;
+	height: 70%;
+	margin-bottom: 3rem;
+	margin-top: 4rem;
+	border-radius: 6%;
+	box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.1);
+	transition: 0.7s filter ease;
+}
+.Hobby:hover img {
+	filter: none;
+}
+
+.Hobby .underline {
+	text-decoration: none;
+	border: 4px solid transparent;
+	display: inline-block;
+	vertical-align: top;
+	line-height: 36px;
+	text-transform: uppercase;
+	color: white;
+	letter-spacing: 0.2em;
+	text-align: center;
+	font-size: 2.5rem;
+	margin: 10px;
+	position: relative;
+}
+
+.underline::after {
+	width: 0%;
+	height: 2px;
+	display: block;
+	background-color: white;
+	content: " ";
+	position: absolute;
+	left: 50%;
+	transition: left 0.7s cubic-bezier(0.215, 0.61, 0.355, 1),
+		width 0.7s cubic-bezier(0.215, 0.61, 0.355, 1);
+}
+
+.Hobby:hover .underline::after {
+	width: 100%;
+	left: 0;
+}
+
+.hobbyList {
+	padding-bottom: 10rem;
+}
+
+.underline {
+	font-size: 2rem !important;
+}
+
+@media screen and (max-width: 720px) {
+	.underline {
+		font-size: 1.5rem !important;
+	}
 }
