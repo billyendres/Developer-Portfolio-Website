@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/Developer-Portfolio-Website/static/css/main.610e44f4.chunk.css",
+    "main.js": "/Developer-Portfolio-Website/static/js/main.44c696f6.chunk.js",
+    "main.js.map": "/Developer-Portfolio-Website/static/js/main.44c696f6.chunk.js.map",
+    "runtime~main.js": "/Developer-Portfolio-Website/static/js/runtime~main.a975917b.js",
+    "runtime~main.js.map": "/Developer-Portfolio-Website/static/js/runtime~main.a975917b.js.map",
+    "static/css/2.43d354e1.chunk.css": "/Developer-Portfolio-Website/static/css/2.43d354e1.chunk.css",
+    "static/js/2.4fffb72f.chunk.js": "/Developer-Portfolio-Website/static/js/2.4fffb72f.chunk.js",
+    "static/js/2.4fffb72f.chunk.js.map": "/Developer-Portfolio-Website/static/js/2.4fffb72f.chunk.js.map",
+    "index.html": "/Developer-Portfolio-Website/index.html",
+    "precache-manifest.9ae0409da6f3e23b1bfa8e680e2a24a5.js": "/Developer-Portfolio-Website/precache-manifest.9ae0409da6f3e23b1bfa8e680e2a24a5.js",
+    "service-worker.js": "/Developer-Portfolio-Website/service-worker.js",
+    "static/css/2.43d354e1.chunk.css.map": "/Developer-Portfolio-Website/static/css/2.43d354e1.chunk.css.map",
+    "static/css/main.610e44f4.chunk.css.map": "/Developer-Portfolio-Website/static/css/main.610e44f4.chunk.css.map",
+    "static/media/cards.png": "/Developer-Portfolio-Website/static/media/cards.67f6b6bb.png",
+    "static/media/climbing.png": "/Developer-Portfolio-Website/static/media/climbing.d9f3b305.png",
+    "static/media/dev.png": "/Developer-Portfolio-Website/static/media/dev.71b8b295.png",
+    "static/media/hiking.png": "/Developer-Portfolio-Website/static/media/hiking.c48aeace.png",
+    "static/media/mountain.png": "/Developer-Portfolio-Website/static/media/mountain.61db1ead.png",
+    "static/media/profile-pic.png": "/Developer-Portfolio-Website/static/media/profile-pic.9aa1f4ac.png",
+    "static/media/snow.png": "/Developer-Portfolio-Website/static/media/snow.d2ea8c77.png",
+    "static/media/surfing.png": "/Developer-Portfolio-Website/static/media/surfing.cfc0b7f3.png",
+    "static/media/youtubeClone.png": "/Developer-Portfolio-Website/static/media/youtubeClone.04a3220a.png"
+  }
+}
