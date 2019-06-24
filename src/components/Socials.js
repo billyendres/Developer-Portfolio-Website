@@ -4,7 +4,7 @@ import React from "react";
 import ProfilePic from "../images/profile-pic.png";
 import PageContent from "./PageContent";
 
-const Portfolio = () => {
+const Socials = () => {
 	return (
 		<PageContent>
 			<img src={ProfilePic} alt="profile" className="profile-image" />
@@ -38,4 +38,4 @@ const Portfolio = () => {
 	);
 };
 
-export default Portfolio;
+export default Socials;

@@ -60,7 +60,6 @@ const AboutMe = () => {
 						<p />
 						Billy.
 					</p>
-					{/* Education Icons */}
 					<div className="education-icons">
 						<i className="fab fa-html5" />
 						<i className="fab fa-js-square" />
