@@ -85,6 +85,22 @@ const PortfolioSites = () => {
 							</PageContent>
 						</Carousel.Caption>
 					</Carousel.Item>
+					<Carousel.Item>
+						<img className="d-block w-50" src={dev} alt="slide" />
+						<Carousel.Caption>
+							<PageContent>
+								<h3>MERN Stack Email App With Stripe Payment Gateway</h3>
+								<a
+									href="https://intense-temple-32289.herokuapp.com/"
+									alt="dev"
+									rel="noopener noreferrer"
+									target="_blank"
+								>
+									Heroku Link
+								</a>
+							</PageContent>
+						</Carousel.Caption>
+					</Carousel.Item>
 				</Carousel>
 			</div>
 		</PageContent>
