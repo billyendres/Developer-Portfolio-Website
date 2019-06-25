@@ -4,7 +4,7 @@ import { ThemeContext } from "../contexts/ThemeContext";
 import Navbar from "react-bootstrap/Navbar";
 import Button from "react-bootstrap/Button";
 
-const NavBar = props => {
+const NavBar = () => {
 	const { isDarkTheme, toggleTheme } = useContext(ThemeContext);
 	return (
 		<div style={{ marginBottom: "5em" }}>

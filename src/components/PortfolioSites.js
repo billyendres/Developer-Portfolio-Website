@@ -7,6 +7,7 @@ import dev from "../images/dev.png";
 import mountain from "../images/mountain.png";
 import cards from "../images/cards.png";
 import youtubeClone from "../images/youtubeClone.png";
+import emailApp from "../images/emailApp.png";
 
 // Arrow Function Composing Component
 const PortfolioSites = () => {
@@ -24,6 +25,7 @@ const PortfolioSites = () => {
 							<PageContent>
 								<h3>Youtube Clone</h3>
 								<a
+									style={{ color: "white" }}
 									href="https://billyendres.github.io/React-Mini-Youtube/"
 									alt="youtubeClone"
 									rel="noopener noreferrer"
@@ -41,6 +43,7 @@ const PortfolioSites = () => {
 							<PageContent>
 								<h3>React Mountains App</h3>
 								<a
+									style={{ color: "white" }}
 									href="https://billyendres.github.io/React-Mountains-Project/"
 									alt="mountains"
 									rel="noopener noreferrer"
@@ -58,6 +61,7 @@ const PortfolioSites = () => {
 							<PageContent>
 								<h3>React Cards Animation</h3>
 								<a
+									style={{ color: "white" }}
 									href="https://billyendres.github.io/React-Cards-API/"
 									alt="cards"
 									rel="noopener noreferrer"
@@ -75,6 +79,7 @@ const PortfolioSites = () => {
 							<PageContent>
 								<h3>MERN Stack DevConnector</h3>
 								<a
+									style={{ color: "white" }}
 									href="https://nameless-journey-89471.herokuapp.com/"
 									alt="dev"
 									rel="noopener noreferrer"
@@ -86,13 +91,14 @@ const PortfolioSites = () => {
 						</Carousel.Caption>
 					</Carousel.Item>
 					<Carousel.Item>
-						<img className="d-block w-50" src={dev} alt="slide" />
+						<img className="d-block w-50" src={emailApp} alt="slide" />
 						<Carousel.Caption>
 							<PageContent>
 								<h3>MERN Stack Email App With Stripe Payment Gateway</h3>
 								<a
+									style={{ color: "white" }}
 									href="https://intense-temple-32289.herokuapp.com/"
-									alt="dev"
+									alt="emailApp"
 									rel="noopener noreferrer"
 									target="_blank"
 								>

@@ -9,7 +9,7 @@ import PortfolioSites from "./PortfolioSites";
 import { ThemeProvider } from "../contexts/ThemeContext";
 import Routes from "./Routes";
 
-const App = props => {
+const App = () => {
 	return (
 		<ThemeProvider>
 			<PageContent>

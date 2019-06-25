@@ -6,7 +6,7 @@ import climbing from "../images/climbing.png";
 import hiking from "../images/hiking.png";
 import snowBoarding from "../images/snow.png";
 
-const Routes = props => {
+const Routes = () => {
 	const image = {
 		hobbies: [
 			{
