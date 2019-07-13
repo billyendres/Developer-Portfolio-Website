@@ -1,27 +1,35 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "22fad7f329245e8873fd88d20d9dfaf5",
+    "revision": "2a9ac25fe1e70302d9eb80ef21dca6fb",
     "url": "/Developer-Portfolio-Website/index.html"
   },
   {
-    "revision": "6f8cdaf9e0f9d26c7cb4",
+    "revision": "e387e9e57a73016d584d",
     "url": "/Developer-Portfolio-Website/static/css/2.43d354e1.chunk.css"
   },
   {
-    "revision": "fe558f69d903939b4f5f",
+    "revision": "6da10ca63b53f79526f1",
     "url": "/Developer-Portfolio-Website/static/css/main.610e44f4.chunk.css"
   },
   {
-    "revision": "6f8cdaf9e0f9d26c7cb4",
-    "url": "/Developer-Portfolio-Website/static/js/2.7a85bd2f.chunk.js"
+    "revision": "e387e9e57a73016d584d",
+    "url": "/Developer-Portfolio-Website/static/js/2.9002089f.chunk.js"
   },
   {
-    "revision": "fe558f69d903939b4f5f",
-    "url": "/Developer-Portfolio-Website/static/js/main.472f2142.chunk.js"
+    "revision": "6da10ca63b53f79526f1",
+    "url": "/Developer-Portfolio-Website/static/js/main.58fb5bcb.chunk.js"
   },
   {
     "revision": "5140fc9c1a3508c9b413",
     "url": "/Developer-Portfolio-Website/static/js/runtime~main.a975917b.js"
+  },
+  {
+    "revision": "fc040a5b04495cca256bb44bc3ee5eb4",
+    "url": "/Developer-Portfolio-Website/static/media/Octivo.fc040a5b.png"
+  },
+  {
+    "revision": "39b173056410e9b08bb9927903b5878b",
+    "url": "/Developer-Portfolio-Website/static/media/Travel.39b17305.png"
   },
   {
     "revision": "67f6b6bbe39852cec78730e109fe1c21",
