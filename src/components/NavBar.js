@@ -3,6 +3,7 @@ import { ThemeContext } from "../contexts/ThemeContext";
 
 import Navbar from "react-bootstrap/Navbar";
 import Button from "react-bootstrap/Button";
+import Reveal from "react-reveal/Reveal";
 
 const NavBar = () => {
 	const { isDarkTheme, toggleTheme } = useContext(ThemeContext);
@@ -15,16 +16,18 @@ const NavBar = () => {
 				fixed="top"
 				expand="lg"
 			>
-				<Navbar.Brand className="nav-text" style={{ fontSize: "2.5rem" }}>
-					BILLY ENDRES
-				</Navbar.Brand>
-				<Button
-					onClick={toggleTheme}
-					variant={isDarkTheme ? "outline-info" : "danger"}
-					size="md"
-				>
-					CHANGE THEME
-				</Button>
+				<Reveal>
+					<Navbar.Brand className="nav-text" style={{ fontSize: "2.5rem" }}>
+						BILLY ENDRES
+					</Navbar.Brand>
+					<Button
+						onClick={toggleTheme}
+						variant={isDarkTheme ? "outline-info" : "danger"}
+						size="md"
+					>
+						CHANGE THEME
+					</Button>
+				</Reveal>
 			</Navbar>
 		</div>
 	);
